@@ -8,24 +8,24 @@ if len(student_id)==8 and student_id.isdigit:
                 payment=30
                 if student_age >= 16 and student_age <=18:
                     payment=payment*0.8
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (charge 20%)")
                 else :
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (no charge)")
             case "WEB":    
                 payment=40
                 if student_age >= 16 and student_age <=18:
                     payment=payment*0.8
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (charge 20%)" )
                 else:
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (no charge)")
 
             case "CY":
                 payment=50
                 if student_age > 18:
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (no charge)")
                 elif student_age == 18:
                     payment=payment*0.8
-                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN")
+                    print (f"you are eligible to study payment amount will be {payment:.2f} AZN (charge 20%)")
                 else:
                     print("You are not elligible for studying")
     else:
