@@ -31,5 +31,5 @@ if total_price > 80:
     print("You have spent more than 80AZN. You are eligible for free shipping.")
     total_price += 0
 else:
-    print("You have spent less than 80AZN. Shipping cost is 10AZN.")
+    print("You have spent less than 80AZN. Shipping cost is 5AZN.")
     total_price += 5
